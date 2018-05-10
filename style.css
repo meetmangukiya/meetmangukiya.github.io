@@ -1,10 +1,9 @@
  @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Spectral');
 
 body {
-  margin-left: 20%;
-  margin-right: 20%;
-  box-sizing: border-box;
   font-family: Spectral, serif;
+  max-width: 600px;
+  margin: 40px auto;
 }
 
 nav h1 {
