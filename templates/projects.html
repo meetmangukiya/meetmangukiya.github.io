@@ -8,8 +8,10 @@ Projects | Meet Mangukiya
 <div>
   <ul>
     {% for project in projects %}
-      <a href='{{project["link"]}}'>{{project["name"]}}</a> -
-      {{project["desc"]}}
+      <li>
+        <a href='{{project["url"]}}'>{{project["name"]}}</a> -
+        {{project["desc"]}}
+      </li>
     {% endfor %}
   </ul>
 </div>
