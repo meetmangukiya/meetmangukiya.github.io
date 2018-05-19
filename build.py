@@ -36,6 +36,7 @@ def build(exclude=[]):
 
     # render templates and write them to the build dir
     for template in filter(lambda x: x not in exclude, templates):
+        print('creating page', template, '...')
         content = render_template(template)
         try:
             os.mkdir(os.path.join(BUILD_DIR, template.replace('.html', '')))
@@ -49,6 +50,7 @@ def build(exclude=[]):
             f.write(content)
 
     # copy the static content to static dir
+    print('copying static dir...')
     shutil.copytree(STATIC_DIR, os.path.join(BUILD_DIR, 'static'))
 
 if __name__ == '__main__':
