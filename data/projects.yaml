@@ -1,0 +1,39 @@
+projects:
+  - name: brianfucky (brainfuck-python)
+    url:  https://github.com/meetmangukiya/brainfuck-python
+    desc: >
+      brainfucky is a brainfuck interpreter written in python.
+  - name: quast
+    url:  https://github.com/meetmangukiya/quast
+    desc: >
+      quast is a question answering platform similar to quora, written
+      using python and flask, and currently remains abandoned with very little feature
+      set.
+  - name: chubby
+    url:  https://github.com/meetmangukiya/chubby
+    desc: >
+      chubby brings to you GitHub actions to your terminal. Currently it
+      allows you to create, edit, and show issues. It maintains it's own config file
+      which can be used to take actions from multiple accounts by specifying the user
+      argument.
+  - name: WhatsRender
+    url:  https://github.com/meetmangukiya/WhatsRender
+    desc: >
+      WhatsRender is used to render "emailed" chats in a better chat-like way.
+      Eventually allowing you to render the media as well. Needs heavy work
+      on CSS BTW.
+  - name: ghooks
+    url:  https://github.com/meetmangukiya/ghooks
+    desc: >
+      ghooks is a python library which can be used to hook python functions
+      to specified github webhooks using a simple decorator. Webhook listener
+      is a Flask app.
+  - name: gitterCLI
+    url:  https://github.com/meetmangukiya/gitterCLI
+    desc: >
+      gitterCLI is a CLI application that allows you to join to a gitter
+      room, send and receive messages from terminal. It is
+  - name: gistey
+    url:  https://github.com/meetmangukiya/gistey
+    desc: >
+      gistey is a CLI application to create GitHub gists from local files.

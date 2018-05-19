@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{% block title %} {% endblock %}</title>
+    <link rel='stylesheet' href='/static/style.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <h1>Meet Mangukiya</h1>
+      <ul>
+        <li><a href='/'>home</a></li>
+        <li><a href='/projects'>projects</a></li>
+        <li><a href='http://blog.myrhy.me'>blog</a></li>
+        <li><a href='http://poems.myrhy.me'>poems</a></li>
+      </ul>
+    </nav>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <footer>
+      Find me on the interwebs here:
+      <ul>
+        <li><a href='https://github.com/meetmangukiya'>GitHub</a></li>
+        <li><a href='https://gitlab.com/meetmangukiya'>GitLab</a></li>
+        <li><a href='https://www.linkedin.com/in/meetmangukiya/'>OpenHub</a></li>
+        <li><a href='https://www.linkedin.com/in/meetmangukiya/'>LinkedIn</a></li>
+        <li><a href='https://twitter.com/meetmangukiya98'>Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
