@@ -38,6 +38,10 @@ def build(exclude=[]):
     for template in filter(lambda x: x not in exclude, templates):
         print('creating page', template, '...')
         content = render_template(template)
+
+        if template == 'index.html':
+            template = ''
+
         try:
             os.mkdir(os.path.join(BUILD_DIR, template.replace('.html', '')))
         except FileExistsError:
