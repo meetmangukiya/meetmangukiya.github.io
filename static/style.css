@@ -1,0 +1,26 @@
+ @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Spectral');
+
+body {
+  font-family: Spectral, serif;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 3.5em;
+  font-family: "Libre Baskerville", serif;
+}
+
+nav ul, nav ul li {
+  font-size: 1.25em;
+  display: inline-block;
+}
+
+nav ul li::after {
+  content: " // ";
+}
+
+nav ul li:last-of-type::after {
+  content: "";
+}
