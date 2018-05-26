@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block title %}
+Poems | Meet Mangukiya
+{% endblock %}
+
+{% block content %}
+  {% for poem in poems %}
+    <div class='poem'>
+      <h3>{{poem['title']}}</h3>
+      <pre>{{poem['content']}}</pre>
+    </div>
+  {% endfor %}
+{% endblock %}
