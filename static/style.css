@@ -12,15 +12,15 @@ nav h1 {
   font-family: "Libre Baskerville", serif;
 }
 
-nav ul, nav ul li {
+nav ul, nav ul li, footer ul, footer ul li {
   font-size: 1.25em;
   display: inline-block;
 }
 
-nav ul li::after {
+nav ul li::after, footer ul li::after {
   content: " // ";
 }
 
-nav ul li:last-of-type::after {
+nav ul li:last-of-type::after, footer ul li:last-of-type::after {
   content: "";
 }
