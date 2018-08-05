@@ -1,6 +1,6 @@
 projects:
   - name: instagram-scraper
-    url:  https://github.com/meetmangukiya/insttagram-scraper
+    url:  https://github.com/meetmangukiya/instagram-scraper
     desc: >
       Scrape instagram frontend by hashtags and structure metadata in csvfile.
       Pretty useful for creating datasets for image processing / machine learning / AI.
