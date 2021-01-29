@@ -20,4 +20,3 @@ deploy:
     branch: src
   target-branch: master
   local-dir: public
-  fqdn: https://myrhy.me
